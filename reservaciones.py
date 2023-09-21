@@ -1,6 +1,6 @@
 from random import randint
 import pandas as pd
-print "messi is gay"
+
 #Abrimos el archivo csv y le asignamos los valores a reservaciones y clientes
 reservaciones = pd.read_csv('reservas.csv', sep=',')
 clientes = pd.read_csv('clientes.csv', sep = ',')
